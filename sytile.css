@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 818px;
+    list-style: none;
+}
+header nav ul li a{
+ text-align: justify;
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 700;
+padding: 18px 16px 18px 20px;
+display: block;
+list-style: none;
+}
+header nav ul li a:hover{
+    color: #77a3ca;
+}
+header nav img{
+    padding: 50px 400px ;
+}
+
+section{
+
+  display: flex;
+align-items: center;
+justify-content: space-around;
+ list-style: none;
+}
+section .menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+section .menu .box{
+    margin-left: 30px;
+    border: 1px solid #f0f0f0;
+    background: #f0f0f0;
+    padding: 30px;
+    align-items: center;
+}
+
+.hone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .home2{
+ width: 1210px;
+height: 155px;
+background: #f0f0f0;
+border: #f0f0f0;
+margin-left: 390px;
+margin-top: 31px;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home2 img{
+    margin-left: 47px;
+}
